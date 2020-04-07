@@ -1,3 +1,3 @@
 # Vitaly
-# git pull
-# git push
+# git pull получение
+# git push отправка

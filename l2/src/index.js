@@ -1,19 +1,69 @@
 'use strict';
 
-let myMoney = prompt('Введите сумму которую вы хотите внести на счет:');
+let myMoney = parseInt(prompt('Введите сумму которую вы хотите внести на счет:'));
 
-function getSquare(money) { // вместо throw new Error можно сделать alert
+function getSquare(money) { 
   if (money === "") {
-    throw new Error('Вы нечего не ввели'); // выводит ошибку в консоль
+    alert ('Вы нечего не ввели');
+    return; 
   }
   if (money === null) {
-    throw new Error ('Вы нажали отмена'); // выводит ошибку в консоль
+    alert('Вы нажали отмена');
+    return; 
   }
   money = Number(money);
   if (isNaN(money)) {
-    throw new Error('Вы ввели не коректное значение: ' + money); // выводит ошибку в консоль
+    alert('Вы ввели не коректное значение: ' + money); 
+    return;
   }
   return money; // функция дальше
 }
 
-alert(getSquare(myMoney));
+let num = getSquare(myMoney);
+
+/**
+ * функция возвращения падежа рубля
+ * @param {nuber} num кол-во рублей ввиде числа 
+ * @returns {string} слово "рубль" в правильном падеже
+ */
+
+function getCase(num) {
+  let beforLastDigit = getDigitBeforLastDigit(num);
+  if (beforLastDigit == 1) {
+    return "рублей";
+  } 
+  num = String(num);
+  let lastNumber = num.charAt(num.length - 1);
+  switch (lastNumber){
+    case 6:
+    case 0:
+    case 5:
+    case 7:
+    case 8:
+    case 9:
+      return "рублей";
+    case 1:
+      return "рубль";
+    case 2:
+    case 3:
+    case 4:
+      return "рубля";
+  }
+}
+
+/**
+ * Функция возвращает предпоследнюю цифру, если она есть, иначе NULL
+ * @param {number} num 
+ * @returns {(number|null)}
+ */
+
+function getDigitBeforLastDigit(num) {
+  num = String(num);
+  let digit = num.charAt(num.length - 2);
+  if (digit !== "") {
+    return Number(digit);
+  }
+  return null;
+}
+
+alert(`Ваша сумма ${myMoney} ${getCase(myMoney)} успешно зачисленна.`);

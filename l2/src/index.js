@@ -28,12 +28,12 @@ let num = getSquare(myMoney);
  */
 
 function getCase(num) {
-  let beforLastDigit = getDigitBeforLastDigit(num);
+  let beforLastDigit = getDigitBeforeLastDigit(num);
   if (beforLastDigit == 1) {
     return "рублей";
   } 
   num = String(num);
-  let lastNumber = num.charAt(num.length - 1);
+  let lastNumber = Number(num.charAt(num.length - 1));
   switch (lastNumber){
     case 6:
     case 0:
@@ -57,7 +57,7 @@ function getCase(num) {
  * @returns {(number|null)}
  */
 
-function getDigitBeforLastDigit(num) {
+function getDigitBeforeLastDigit(num) {
   num = String(num);
   let digit = num.charAt(num.length - 2);
   if (digit !== "") {

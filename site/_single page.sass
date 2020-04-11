@@ -1,0 +1,199 @@
+.promo__single
+  border: 1px solid #eaeaea
+  background-color: #f7f7f7
+  height: 777px
+
+.promo__woman
+  background-repeat: no-repeat
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.catalog-woman
+  margin-top: 850px
+
+.scroll
+  background-color: #dbdbdb
+  color: #ffffff
+  font-size: 24px
+  font-weight: 400
+  width: 47px
+  height: 47px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.collection
+  width: 1141px
+  height: 730px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  position: absolute
+  top: 1000px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.collection__txt_women
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  border-bottom: 1px solid #eaeaea
+  margin-top: 73px
+
+.collection__txt_line
+  width: 63px
+  height: 3px
+  border-top: 3px solid $color-effect
+  margin: 15px 0 -4px 44px
+
+.collection__txt_cheap
+  color: #4d4d4d
+  font-size: 18px
+  font-weight: 400
+  text-transform: uppercase
+  margin-top: 18px
+
+
+.star-rating
+  font-size: 0
+  margin: 25px 0
+
+.star-rating__wrap
+  display: inline-block
+  font-size: 1rem
+
+.star-rating__wrap:after
+  content: ""
+  display: table
+  clear: both
+
+.star-rating__ico
+  float: right
+  padding-left: 2px
+  cursor: pointer
+  color: #FFB300
+
+
+.star-rating__ico:last-child
+  padding-left: 0
+
+.star-rating__input
+  display: none
+
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+  content: "\2605" // немогу понять почему не подключается нормальная звезда f005 f006
+
+.collection__txt_text
+  color: #5e5e5e
+  font-size: 14px
+  font-weight: 300
+  margin-bottom: 25px
+  width: 627px
+  height: 48px
+  text-align: center
+
+.collection__text_set
+  color: #b9b9b9
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  width: 334px
+  display: flex
+  justify-content: space-between
+
+.collection__txt_color
+  color: #2f2f2f
+
+.collection__text_price
+  font-size: 24px
+  font-weight: 700
+  width: 642px
+  margin-top: 37px
+  padding-bottom: 43px
+  border-bottom: 1px solid #eaeaea
+  text-align: center
+
+.collection__text_customiz
+  display: flex
+  justify-content: space-between
+  width: 538px
+  margin-top: 60px
+
+select
+  padding-left: 15px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  width: 144px
+  height: 35px
+  color: #bcbcbc
+  font-size: 14px
+  font-weight: 400
+  -webkit-appearance: none
+  -moz-appearance: none
+
+.collection__text_sel:after
+  display: block
+  pointer-events: none
+  position: absolute
+  top: 68.65%
+  right: 44.5rem
+  z-index: 1
+  margin-top: -3px
+  content: url(img/arou.png)
+
+.collection__text_red::after
+  display: block
+  pointer-events: none
+  position: absolute
+  top: 68.65%
+  right: 44.5rem
+  z-index: 2
+  margin-top: -3px
+  background-color: $color-effect
+  width: 12px
+  height: 12px
+  border: 1px solid $color-effect
+
+.collection__text_sell:after
+  display: block
+  pointer-events: none
+  position: absolute
+  top: 68.65%
+  right: 32rem
+  z-index: 1
+  margin-top: -3px
+  content: url(img/arou.png)
+
+.collection__text_blue
+  width: 12px
+  height: 12px
+  background-color: #4f86ff
+
+.collection__text_black
+  width: 12px
+  height: 12px
+  background-color: #000000
+
+.collection__cart
+  border: 1px solid $color-effect
+  background-color: #ffffff
+  width: 537px
+  height: 55px
+  margin-top: 38px
+  display: flex
+  justify-content: center
+
+.collection__txt_button
+  color: $color-effect
+  font-size: 16px
+  font-weight: 700
+  padding-top: 4px
+  padding-left: 15px
+
+.collection__txt_cart
+  color: $color-effect
+  width: 26px
+  height: 24px

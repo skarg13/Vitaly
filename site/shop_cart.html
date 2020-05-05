@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
   <link rel="stylesheet" href="style/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/35f47a862b.js" crossorigin="anonymous"></script>
-  
+  <script src="https://use.fontawesome.com/8c41363e0e.js"></script>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="style/_vars.sass">
 </head>
+
 <body>
   <header class="center header">
     <div class="header__left">
-      <a class="logo" href="#"><img class="logo__img" src="img/logo.png" alt="logo" />BRAN<span class="text__color">D</span></a>
+      <a class="logo" href="#"><img class="logo__img" src="img/logo.png" alt="logo" />BRAN<span
+          class="text__color">D</span></a>
       <form class="header__form" action="#">
         <details class="dropdown">
           <summary class="dropdown__marker">Browse</summary>
@@ -49,44 +53,48 @@
     </div>
     <div class="header__right">
       <div class="header__a_cart">
-      <a href="#" ><img class="header__cart" src="img/cart.png" alt="cart" /></a>
-      <div class="header__cart_drop">
-        <ul class="header__cart_li">
-          <li class="header__cart_img"><img src="img/man_cart.jpg"></li>
-          <li class="header__cart_info">
-            <h5 class="header__cart_z">Rebox Zane</h5>
-            <p class="header__cart_star">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-            <p class="header__cart_price">1 &nbsp; x &nbsp; &nbsp;$250</p>
-            <p class="header__cart_del">	&#215;</p>
-          </li>
-        </ul>
-        <ul class="header__cart_ul">
-          <li class="header__cart_img"><img src="img/women_cart.jpg"></li>
-          <li class="header__cart_info">
-            <h5 class="header__cart_z">Rebox Zane</h5>
-            <p class="header__cart_star">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-            <p class="header__cart_price">1 &nbsp; x &nbsp; &nbsp;$250</p>
-            <p class="header__cart_del">	&#215;</p>
-          </li>
-        </ul>
-        <ul class="header__cart_ul header__cart_total">
-          <li>TOTAL</li>
-          <li>$500.00</li>
-        </ul>
-        <ul class="header__car cart__button">
-          <li><p><a href="#" class="header__cart_button  button_s">Checkout</a></p></li>
-          <li class="header__button_m"><p><a href="#" class="header__cart_button button_t">Go to cart</a></p></li>
-        </ul>
+        <a href="#"><img class="header__cart" src="img/cart.png" alt="cart" /></a>
+        <div class="header__cart_drop">
+          <ul class="header__cart_li">
+            <li class="header__cart_img"><img src="img/man_cart.jpg"></li>
+            <li class="header__cart_info">
+              <h5 class="header__cart_z">Rebox Zane</h5>
+              <p class="header__cart_star">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="header__cart_price">1 &nbsp; x &nbsp; &nbsp;$250</p>
+              <p class="header__cart_del"> &#215;</p>
+            </li>
+          </ul>
+          <ul class="header__cart_ul">
+            <li class="header__cart_img"><img src="img/women_cart.jpg"></li>
+            <li class="header__cart_info">
+              <h5 class="header__cart_z">Rebox Zane</h5>
+              <p class="header__cart_star">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="header__cart_price">1 &nbsp; x &nbsp; &nbsp;$250</p>
+              <p class="header__cart_del"> &#215;</p>
+            </li>
+          </ul>
+          <ul class="header__cart_ul header__cart_total">
+            <li>TOTAL</li>
+            <li>$500.00</li>
+          </ul>
+          <ul class="header__car cart__button">
+            <li>
+              <p><a href="#" class="header__cart_button  button_s">Checkout</a></p>
+            </li>
+            <li class="header__button_m">
+              <p><a href="#" class="header__cart_button button_t">Go to cart</a></p>
+            </li>
+          </ul>
+        </div>
       </div>
-      </div>
-      
+
       <a href="#" class="button">My Account</a>
     </div>
   </header>
   <nav class="center">
     <ul class="menu">
       <li class="menu__list">
-        <a href="#" class="menu__link">Home</a>
+        <a href="index.html" class="menu__link">Home</a>
         <div class="drop">
           <div class="drop-flex">
             <h3 class="drop__h3">Women</h3>
@@ -136,7 +144,7 @@
         </div>
       </li>
       <li class="menu__list">
-        <a href="man.html" class="menu__link">Man</a>
+        <a href="#" class="menu__link">Man</a>
         <div class="drop">
           <div class="drop-flex">
             <h3 class="drop__h3">Women</h3>
@@ -428,8 +436,8 @@
             </ul>
             <div class="drop__img">
               <div class="drop__img_block_text">
-                 <p class="drop__img_text">Super</p>
-                 <p class="drop__img_text">sale!</p>
+                <p class="drop__img_text">Super</p>
+                <p class="drop__img_text">sale!</p>
               </div>
             </div>
           </div>
@@ -437,191 +445,126 @@
       </li>
     </ul>
   </nav>
-  <div class="promo center">
-    <div class="promo__content">
-      <div class="promo__text">
-        <p class="promo__text__z"><b>THE BRAND</b></p>
-        <p class="promo_text__s">
-          <b>OF LUXERIOUS <span class="text__color">FASHION</span></b>
-        </p>
-      </div>
+  <div class="title center">
+    <div class="title__arrivals">New Arrivals</div>
+    <div class="title__nav">
+      <a href="#" class="title__link">Home</a>/
+      <a href="#" class="title__link">Men</a>/
+      <a href="#" class="color">New Arrivals</a>
     </div>
   </div>
-  <div class="center content">
-    <div class="content__left">
-      <a href="#" class="content__text block-1">
-        <div class="text__block-1">
-          <p><b>HOT dEAL </b></p>
-          <p></p>
-          <p>
-            <span class="text__color_block"><b>For MEN</b></span>
-          </p>
-        </div>
-      </a>
-      <a href="#" class="content__text block-3">
-        <div class="text__block-3">
-          <p><b>LUXIROUS & trendy</b></p>
-          <p>
-            <span class="text__color_block"><b>ACCESORIES</b></span>
-          </p>
-        </div>
-      </a>
-    </div>
-    <div class="content__right">
-      <a href="#" class="content__text block-2">
-        <div class="text__block-2">
-          <p><b>30% offer</b></p>
-          <p>
-            <span class="text__color_block"><b>women</b></span>
-          </p>
-        </div>
-      </a>
-      <a href="#" class="content__text block-4">
-        <div class="text__block-4">
-          <p><b>new arrivals</b></p>
-          <p>
-            <span class="text__color_block"><b>FOR kids</b></span>
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div class="center">
-    <div class="preview">
-      <p class="preview__beg">Fetured Items</p>
-      <p class="preview__text">Shop for items based on what we featured in this week</p>
-    </div>
-    <div class="catalog">
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_2.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
+  <section class="shopping__cart center">
+    <article class="shopping__cart__title">
+      <p class="shopping__cart_text-black">Product Details</p>
+      <div class="shopping__cart_position">
+        <p class="shopping__cart_text-black">unite Price</p>
+        <p class="shopping__cart_text-black">Quantity</p>
+        <p class="shopping__cart_text-black">shipping</p>
+        <p class="shopping__cart_text-black">Subtotal</p>
+        <p class="shopping__cart_text-black">ACTION</p>
+      </div>
+    </article>
+    <article class="shopping__cart_product">
+      <div class="shopping__cart_details"><img src="img/shop_cart-1.png" class="shopping__cart_size" alt="shop_cart-1">
+        <div class="shopping__cart_flex">
+          <p class="shopping__cart_text-black">Mango People T-shirt</p>
+          <div class="shopping__cart_text-size">
+            <p>Color: <span class="shoppig__cart_text-color">Red</span></p>
+            <p>Size: <span class="shoppig__cart_text-color">Xll</span></p>
           </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_3.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_4.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_5.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_6.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_7.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_8.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <div class="catalog__product">
-        <a class="catalog__block" href="#"><img class="product__img" src="img/Layer_9.jpg" alt="product">
-          <div class="product__block">
-            <p class="product__text">Mango People T-shirt</p>
-            <p class="product__color">$52.00</p>
-          </div>
-          <a href="#" class="product__add"><img src="img/cart.svg" alt="cart"> Add to cart</a>
-        </a>
-      </div>
-      <a href="#" class="all_product"><p class="all_product__txt">Browse All Product <b>&rarr;</b></p></a>
-    </div>
-
-  </div>
-  <section class="discounts center">
-    <div class="discounts__women 2">
-      <img src="img/2-layers.jpg" alt="women">
-      <div class="discounts__women__text 3">
-        <p class="women__text">30% <span class="women__text__color">OFFER</span></p>
-        <p class="women__text__for">FOR WOMEN</p>
-      </div>
-    </div>
-    <div class="discounts__block 4">
-      <div class="block__block__right 5 1">
-        <div class="car__img 6 1">
-          <img src="img/car.svg" alt="car">
-        </div>
-        <div class="car__text 6 2">
-          <p class="car__text__heading">Free Delivery</p>
-          <p class="car__text__lowercase">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
         </div>
       </div>
-      <div class="block__block__right 5 2">
-        <div class="6 1">
-          <img src="img/sd.svg" alt="sd">
-        </div>
-        <div class="6 2">
-          <p class="car__text__heading">Sales & discounts</p>
-          <p class="car__text__lowercase">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+      <div class="shopping__cart_position-w shopping__cart_right">
+        <div class="shopping__cart_text-size">$150</div>
+        <div class="shopping__cart_text-size shopping__cart_bord shopping__cart_pos">2</div>
+        <div class="shopping__cart_text-size">FREE</div>
+        <div class="shopping__cart_text-size">$300</div>
+        <div class="shopping__cart_text-size"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+      </div>
+    </article>
+    <article class="shopping__cart_product">
+      <div class="shopping__cart_details"><img src="img/shop_cart-2.png" class="shopping__cart_size" alt="shop_cart-1">
+        <div class="shopping__cart_flex">
+          <p class="shopping__cart_text-black">Mango People T-shirt</p>
+          <div class="shopping__cart_text-size">
+            <p>Color: <span class="shoppig__cart_text-color">Red</span></p>
+            <p>Size: <span class="shoppig__cart_text-color">Xll</span></p>
+          </div>
         </div>
       </div>
-      <div class="block__block__right 5 3">
-        <div class="6 1">
-          <img src="img/crown.svg" alt="crown">
-        </div>
-        <div class="6 2">
-          <p class="car__text__heading">Quality assurance</p>
-          <p class="car__text__lowercase">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+      <div class="shopping__cart_position-w shopping__cart_right">
+        <div class="shopping__cart_text-size">$150</div>
+        <div class="shopping__cart_text-size shopping__cart_bord shopping__cart_pos">2</div>
+        <div class="shopping__cart_text-size">FREE</div>
+        <div class="shopping__cart_text-size">$300</div>
+        <div class="shopping__cart_text-size"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+      </div>
+    </article>
+    <article class="shopping__cart_product">
+      <div class="shopping__cart_details"><img src="img/shop_cart-3.png" class="shopping__cart_size" alt="shop_cart-1">
+        <div class="shopping__cart_flex">
+          <p class="shopping__cart_text-black">Mango People T-shirt</p>
+          <div class="shopping__cart_text-size">
+            <p>Color: <span class="shoppig__cart_text-color">Red</span></p>
+            <p>Size: <span class="shoppig__cart_text-color">Xll</span></p>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="shopping__cart_position-w shopping__cart_right">
+        <div class="shopping__cart_text-size">$150</div>
+        <div class="shopping__cart_text-size shopping__cart_bord shopping__cart_pos">2</div>
+        <div class="shopping__cart_text-size">FREE</div>
+        <div class="shopping__cart_text-size">$300</div>
+        <div class="shopping__cart_text-size"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+      </div>
+    </article>
+    <article class="shopping__cart__button">
+      <button class="shopping__cart__mods">cLEAR SHOPPING CART</button>
+      <button class="shopping__cart__mods">cLEAR SHOPPING CART</button>
+    </article>
   </section>
+
+  <section class="delivery center">
+    <article class="delivery__address">
+      <p class="delivery__heading">Shipping Adress</p>
+      <select class="delivery__select delivery_color">
+        <option value="Canada">Canada</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="England">England</option>
+      </select>
+      <input type="text" class="delivery__input" placeholder="State"></input>
+      <input type="text" class="delivery__input" placeholder="Postcode / Zip"></input>
+      <button class="delivery__button">get a quote</button>
+    </article>
+    <article class="delivery__address">
+      <p class="delivery__heading">coupon  discount</p>
+      <p class="delivery__text">Enter your coupon code if you have one</p>
+      <input type="text" class="delivery__input" placeholder="State"></input>
+      <button class="delivery__button">Apply coupon</button>
+    </article>
+    <article class="delivery__checkout">
+      <div class="delivery__sub">Sub total &nbsp;&nbsp; $900</div>
+      <div class="delivery__heading delivery__button-line">GRAND TOTAL &nbsp;&nbsp; <span class="delivery__heading_color">$900</span></div>
+      <button class="delivery__button-check">proceed to checkout</button>
+    </article>
+  </section>
+
   <section class="subscribe center">
     <div class="subscribe__content">
-      <div class="subscribe__center center">
-        <div class="subscribe__left 2">
-          <div class="subscribe__img 3">
+      <div class="subscribe__center">
+        <div class="subscribe__left">
+          <div class="subscribe__img">
             <img src="img/photo.png" alt="photo">
           </div>
-          <div class="subscribe__text 4">
-            <p class="subscribe__text__z">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
-
-            <p class="ubscribe__text__color">Bin Burhan</p>
+          <div class="subscribe__text">
+            <p class="subscribe__text__z">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+              condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+            <p class="color">Bin Burhan</p>
             <p>Dhaka, Bd</p>
           </div>
         </div>
-        <div class="subscribe__right 5">
-          <div class="subscribe__right__text 6">
+        <div class="subscribe__right">
+          <div class="subscribe__right__text">
             <p class="subscribe__right__z">Subscribe</p>
             <p class="subscribe__right__m">FOR OUR NEWLETTER AND PROMOTION</p>
           </div>
@@ -635,42 +578,46 @@
     </div>
   </section>
   <section class="basement center">
-    <div class="1">
-      <a class="logo " href="#"><img class="logo__img" src="img/logo.png" alt="logo" />BRAN<span class="text__color">D</span></a>
-      <p class="basement_logo">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+    <div class="basement__left">
+      <a class="logo" href="#"><img class="logo__img" src="img/logo.png" alt="logo" />BRAN<span
+          class="text__color">D</span></a>
+      <p class="basement_logo">Objectively transition extensive data rather than cross functional solutions.
+        Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an
+        expanded array of processes and cross-unit partnerships.</p>
       <p class="basement_logo">Efficiently plagiarize 24/365 action items and focused infomediaries.
         Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
     </div>
-    <div class="basement__block basement__interval 2">
-      <p class="basement__color">COMPANY</p>
-      <a class="basement__interval__str" href="#">Home</a>
-      <a class="basement__interval__str" href="#">Shop</a>
-      <a class="basement__interval__str" href="#">About</a>
-      <a class="basement__interval__str" href="#">How It Works</a>
-      <a class="basement__interval__str" href="#">Contact</a>
+    <div class="basement__right">
+      <div class="basement__block basement__interval 2">
+        <p class="basement__color">COMPANY</p>
+        <a class="basement__interval__str" href="#">Home</a>
+        <a class="basement__interval__str" href="#">Shop</a>
+        <a class="basement__interval__str" href="#">About</a>
+        <a class="basement__interval__str" href="#">How It Works</a>
+        <a class="basement__interval__str" href="#">Contact</a>
+      </div>
+      <div class="basement__block 3">
+        <p class="basement__color ">INFORMATION</p>
+        <a class="basement__interval__str" href="#">Tearms & Condition</a>
+        <a class="basement__interval__str" href="#">Privacy Policy</a>
+        <a class="basement__interval__str" href="#">How to Buy</a>
+        <a class="basement__interval__str" href="#">How to Sell</a>
+        <a class="basement__interval__str" href="#">Promotion</a>
+      </div>
+      <div class="basement__block 4">
+        <p class="basement__color">SHOP CATEGORY</p>
+        <a class="basement__interval__str" href="#">Men</a>
+        <a class="basement__interval__str" href="#">Women</a>
+        <a class="basement__interval__str" href="#">Child</a>
+        <a class="basement__interval__str" href="#">Apparel</a>
+        <a class="basement__interval__str" href="#">Brows All</a>
+      </div>
     </div>
-    <div class="basement__block 3">
-      <p class="basement__color ">INFORMATION</p>
-      <a class="basement__interval__str" href="#">Tearms & Condition</a>
-      <a class="basement__interval__str" href="#">Privacy Policy</a>
-      <a class="basement__interval__str" href="#">How to Buy</a>
-      <a class="basement__interval__str" href="#">How to Sell</a>
-      <a class="basement__interval__str" href="#">Promotion</a>
-    </div>
-    <div class="basement__block 4">
-      <p class="basement__color">SHOP CATEGORY</p>
-      <a class="basement__interval__str" href="#">Men</a>
-      <a class="basement__interval__str" href="#">Women</a>
-      <a class="basement__interval__str" href="#">Child</a>
-      <a class="basement__interval__str" href="#">Apparel</a>
-      <a class="basement__interval__str" href="#">Brows All</a>
-    </div>
-
   </section>
   <footer class="footer center">
-    <div class="footer__block center">
+    <div class="footer__block">
       <div class="date">
-        <time datetime="2019">&copy;2019 Brand  All Rights Reserved.</time>
+        <time datetime="2019">&copy;2019 Brand All Rights Reserved.</time>
       </div>
       <div class="icon">
         <a href="" class="icon__item"><i class="fab fa-facebook-f"></i></a>

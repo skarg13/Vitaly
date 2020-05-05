@@ -1,0 +1,117 @@
+li
+  list-style-type: none
+
+.checkout
+  margin-top: 90px 
+
+.checkout_top
+  margin-top: 30px
+
+.checkout__details
+  border-bottom: 1px solid #e8e8e8
+  width: 1140px
+  padding-bottom: 30px
+  
+.checkout__summary
+  color: $black-text
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.checkout__summary::-webkit-details-marker
+  display: none
+
+.checkout__position
+  display: flex
+  padding-bottom: 30px
+
+.checkout__txt_black
+  color: $black-text
+  font-size: 13px
+  font-weight: 600
+  line-height: 20px
+  text-transform: uppercase
+
+.checkout__txt_faded
+  color: #b3b2b2
+  font-size: 13px
+  font-weight: 400
+  padding-top: 15px
+
+.checkout__txt
+  margin: 40px 0 0 35px
+  &_indentation
+    margin-bottom: 32px
+
+.indentation
+  padding-top: 15px
+
+input[type="radio"] // круг выбора
+  -webkit-appearance: none
+  width: 14px
+  height: 14px
+  border: 2px solid $black-text
+  border-radius: 50%
+  outline: none
+  
+
+input[type="radio"]:before // точка
+  content: ''
+  display: block
+  width: 50%
+  height: 50%
+  margin: 25% auto   
+  border-radius: 60%    
+
+input[type="radio"]:checked:before
+  background: $black-text
+
+.radio_label
+  padding: 0 0 0 7px
+
+.checkout__button
+  background-color: #ffffff
+  border: 1px solid #eaeaea
+  width: 180px
+  height: 50px
+
+.checkout_indentation
+  margin-top: -15px
+
+.register_indentation
+  margin-bottom: 20px
+
+.register__field
+  width: 390px
+  height: 45px
+  border: 1px solid #eaeaea
+  margin: 15px 0 3px 0
+  font-size: 20px
+  color: #b3b2b2
+  font-weight: 400
+
+.checkout__txt_red 
+  color: #ff0d0d
+  font-size: 20px
+  font-weight: 400
+  line-height: 20px
+
+.register__fileds_red
+  color: #ff0d0d
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+
+.checkout__forgot
+  color: #222222
+  font-size: 14px
+  font-weight: 600
+  line-height: 20px
+  padding-left: 30px
+
+.checkout__login
+  margin-top: 30px
+
+.checkout__left
+  margin-left: 290px
+
